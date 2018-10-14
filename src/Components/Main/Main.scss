@@ -1,0 +1,15 @@
+@import "../../variables";
+
+
+.main {
+  background-color: $background-color;
+  p, h1, h2 {
+  color: black;
+  }
+}
+
+.largeParagraph {
+  p {
+    font-size: 20px;
+  }
+}

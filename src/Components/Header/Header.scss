@@ -1,0 +1,64 @@
+@import "../../variables";
+
+.search {
+  height: 75px;
+  position: fixed;
+  top: -75px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.headerWrapper {
+  position: fixed;
+  top: 0;
+  z-index: 5000;
+  height: 64px;
+  background-color: $black;
+
+}
+
+.header {
+  padding: 0 !important;
+
+  :global .item {
+    color: white !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 20px !important;
+    margin-left: 10px !important;
+  
+  }
+}
+
+
+:global .active {
+  color: $yellow !important;
+  border-color: $yellow !important;
+}
+
+.logo {
+  padding-right: 60px;
+  padding-bottom: 10px;
+
+  :global img {
+    width: 120px !important;
+  }
+}
+
+
+
+.image {
+  padding: 0;
+  height: 400px;
+  background-image:url(https://www.vordur.is/media/1179/fjolskyldaogheimili.jpg?width=1920);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  position: relative !important;
+}
+
+

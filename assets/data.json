@@ -1,0 +1,26 @@
+{
+    "navigation": [
+        "Einstaklingur",
+        "Fyrirtæki",
+        "Tjón",
+        "Vörður"
+    ],
+    "options": [
+        { 
+            "title": "Heimilisvernd 1", 
+            "description": "Innbústrygging og ábyrgðartrygging í einum pakka. Einföld og örugg trygging fyrir þá sem ekki þurfa slysa- eða ferðatryggingar."
+        },
+        { 
+            "title": "Heimilisvernd 2", 
+            "description": "Uppfyllir grunnþarfir fjölskyldunnar á hagkvæman máta. Innifalið í tryggingunni er innbústrygging, ábyrgðartrygging og slysatrygging."
+        },
+        { 
+            "title": "Heimilisvernd 3", 
+            "description": "Algengasta fjölskyldu-tryggingin hjá Verði sem hentar vel barnafjölskyldum. Innifalið í tryggingunni eru víðtækari slysatryggingar."
+        },
+        { 
+            "title": "Heimilisvernd 4", 
+            "description": "Inniheldur allar helstu tryggingar heimilisins auk þess sem hægt er að bæta við ferðatryggingum eftir þörfum."
+        }
+    ]
+}

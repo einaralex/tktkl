@@ -1,0 +1,11 @@
+@import "./variables";
+
+body {
+  height: 100%;
+  font-family: "Geogrotesque";
+  p, h1, h2 {
+    line-height: $paragraph-line-height;
+    color: white;
+  }
+
+}

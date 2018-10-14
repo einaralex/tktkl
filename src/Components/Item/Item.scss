@@ -1,0 +1,26 @@
+
+@import "../../variables";
+
+.item {
+  height: 510px;
+  min-width: 260px;
+}
+
+.divider {
+    border-style: solid;
+    border-color: $yellow;
+    width: 30%;
+    margin-left: 20px !important;
+    border-bottom: 1px;
+    height: 1px;
+}
+
+.image {
+  background-repeat: no-repeat;
+  height: 144px;
+  background-position: 50% 0%;
+}
+
+.imageWrapper {
+
+}

@@ -1,0 +1,15 @@
+.footer { 
+  color: black;
+  
+  :global .item {
+    color: black !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 20px !important;
+    margin-left: 10px !important;
+  
+  }
+}
+:global .item {
+  color: black !important;
+}
