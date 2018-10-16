@@ -20,7 +20,7 @@ export default class extends React.Component {
         const { activeTab } = this.state;
         return (
             <Grid.Row centered className={styles.headerWrapper} verticalAlign="bottom">
-                <Grid.Column width={11}>
+                <Grid.Column computer={11}  tablet={16} mobile={16}>
                     <Grid>
                         <Grid.Row className={styles.header}>
                             <Grid.Column width={8}>

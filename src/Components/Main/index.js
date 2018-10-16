@@ -22,7 +22,7 @@ export default class extends React.Component {
     static Options = ({ options }) => (
         <Grid.Row>
             {options.map((opt, i) => ( 
-                <Grid.Column key={i} width="4">
+                <Grid.Column key={i} computer={4} tablet={8} mobile={16} className={styles.item}>
                     <Paper>
                         <Item title={opt.title} description={opt.description} index={i} />
                     </Paper>
@@ -33,9 +33,9 @@ export default class extends React.Component {
     render() {
         return (
             <Grid.Row centered className={styles.main}>
-                <Grid.Column width={11}>
+                <Grid.Column computer={11}  tablet={16} mobile={16}>
                     {this.props.children.map((child, i) => (
-                        <Grid key={i}>{child}</Grid>
+                        <Grid stackable key={i}>{child}</Grid>
                     ))}
                 </Grid.Column>
             </Grid.Row>
