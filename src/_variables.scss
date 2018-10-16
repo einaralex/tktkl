@@ -9,3 +9,14 @@ $link-color: #5B8A92;
 $paragraph-line-height: 1.6;
 $header2-size: 22px !important;
 
+@font-face { 
+  font-family: "Geogrotesque"; 
+  src: url("/assets/font/first.eot"); 
+  src: url("/assets/font/first.eot") format("eot"), 
+    url("/assets/font/first.woff2") format("woff2"), 
+    url("/assets/font/first.woff") format("woff"), 
+    url("/assets/font/first.ttf") format("truetype"), 
+    url("/assets/font/first.svg") format("svg");
+  font-style: normal;
+  font-weight: 100; 
+}

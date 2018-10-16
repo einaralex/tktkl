@@ -2,10 +2,10 @@
 
 body {
   height: 100%;
-  font-family: "Geogrotesque";
+  font-family: "Geogrotesque", arial, sans-serif !important;
   p, h1, h2 {
     line-height: $paragraph-line-height;
-    color: white;
+    font-family: "Geogrotesque", arial, sans-serif !important;
   }
 
 }
