@@ -4,41 +4,44 @@ import styles from "./Footer.scss"
 
 
 export default (props) => {
-  const { navigation } = props;
+  const {  } = props;
   
   return (
     <Grid.Row centered className={styles.footer}>
-    <Grid.Column width={11}>
+    <Grid.Column width={16}>
         <Grid>
-          <Grid.Row>
-            <Grid.Column width='8'>
-            <Menu pointing secondary borderless>
-              {navigation.map(n => <Menu.Item>{n.toUpperCase()}</Menu.Item>)}
-            </Menu>
-            </Grid.Column>
-            <Grid.Column width='8' textAlign='right'>
-              <span>Þjónustusími</span><br/>
-              <span>5141000</span>
-            </Grid.Column>
+        <Grid.Row centered className={styles.top}>
+          <Grid.Column width={11} textAlign='left' verticalAlign='middle'>
+            <h4>GETUM VIÐ AÐSTOÐAÐ ÞIG?</h4><br />
+               <i></i>
+               <span>09:00 - 16:30</span>
+               <i></i>
+               <span>Netspjall</span>
+               <i></i>
+               <span>514 1000</span>
+               <i></i>
+               <span>vordur@vordur.is</span>
+               <i></i>
+               <span>Senda fyrirspurn</span>
+             </Grid.Column>
           </Grid.Row>
-          <Grid.Row >            
-            <Grid.Column width='8'>
-              <span>Vörður tryggingar hf</span><br/>
-              <span>Kt. 441099-3399</span><br/>
-              <span>Vörður Líf Kt. 620166-0229</span>
+          <Grid.Row centered>            
+            <Grid.Column width={7} >
+            <span>Persónuvernd</span>
+            <span>Skilmálar</span>
+            <span>Vafrakökur</span>
+            <span>Ábendingar, kvartanir og hrós</span>
             </Grid.Column>
-            <Grid.Column width='8' textAlign='right'>
-              <span>Opnunartími</span><br/>
-              <span>9:00 - 16:30</span>
-            </Grid.Column>
-            </Grid.Row>
-          <Grid.Row>
-            <span>Borgartúni 25, 105 Reykjavík</span><br/>
-            <span>vordur@vordur.is</span>
-          </Grid.Row>
-          <Grid.Row>
-            <span>Facebook</span><br/>
+          <Grid.Column width={4} >
+          <span>Facebook</span>
             <span>Youtube</span>
+          </Grid.Column>
+          </Grid.Row>
+          <Grid.Row centered>
+          <Grid.Column width={11} >
+          <span>Vörður Tryggingar hf kt. 441099 - 3399  Vörður Líftryggingar hf kt. 620166 - 0229</span>
+            <span>Borgartún 25, 105 Reykjavík</span>
+          </Grid.Column>
             </Grid.Row>
         </Grid>
     </Grid.Column>

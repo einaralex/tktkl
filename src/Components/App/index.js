@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer, Header, Main, Navigation, Search } from "../../Components";
+import { Footer, Header, Help, Main } from "../../Components";
 import { navigation, options } from "../../../assets/data.json";
 import { Grid } from "semantic-ui-react";
 import styles from './App.scss';
@@ -20,7 +20,8 @@ toggleSearch = (searchOpen) => {
       <Main.Header/>
       <Main.Options options={options}/>
     </Main>
-    <Footer navigation={navigation}/>
+    <Footer/>
+    <Help/>
   </Grid>)
   }
 }

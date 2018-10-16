@@ -5,7 +5,7 @@ import Logo from "../../../assets/logo.png";
 import styles from "./Header.scss";
 
 export default class extends React.Component {
-    state = { activeTab: "EINSTAKLINGUR"};
+    state = { activeTab: "EINSTAKLINGAR"};
     
     switchTab = ({ content }) => this.setState({ activeTab: content });
     static Search = (props) => 

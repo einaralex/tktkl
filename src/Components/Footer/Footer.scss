@@ -1,15 +1,44 @@
+@import "../../variables";
+
 .footer { 
   color: black;
   
+  :global .menu {
+    border-bottom: 0 !important;
+  }
   :global .item {
-    color: black !important;
+    color: $grey-text-color !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-bottom: 20px !important;
     margin-left: 10px !important;
+  }
+
+}
+.top {
   
+  color: white;
+  background-color: $yellow;
+  min-height: 210px;
+  text-align: 'left';
+  /*padding-top: 70px !important;*/
+
+  h4 {
+    font-size: 26px;
+  }
+  span {
+    font-size: 20px;
+    padding-right: 50px !important;
+    padding-bottom: 40px !important;
+    line-height: 3;
   }
 }
-:global .item {
-  color: black !important;
+
+.companyName {
+  color: red !important;
+  font-size: 14px;
+}
+.companyInfo {
+  color: $light-grey-text-color;
+  font-size: 11,5px;
 }
