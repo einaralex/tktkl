@@ -28,17 +28,56 @@
   }
   span {
     font-size: 20px;
-    padding-right: 50px !important;
+    padding-right: 60px !important;
     padding-bottom: 40px !important;
     line-height: 3;
   }
+  span:hover { 
+    text-decoration: underline;
+  }
+  img {
+    padding-bottom: 12px;
+    padding-right: 15px;
+  }
 }
 
-.companyName {
-  color: red !important;
-  font-size: 14px;
+.links {
+  padding-top: 70px !important;
+  a {
+    color: #2a2a2a;
+    
+  }
+  a:hover { 
+    text-decoration: underline;
+  }
+  strong {
+    color: $yellow;
+  }
+  .social {
+    strong {
+      padding-right: 20px;
+    }
+    img {
+      height: 25px;
+      margin-bottom: 6px;
+      padding-right: 5px;
+    }
+  }
 }
-.companyInfo {
+.slashDivider {
+  padding-right:25px;
+  padding-left: 25px;
+}
+
+.companyInfo {
   color: $light-grey-text-color;
-  font-size: 11,5px;
+  font-size: 14px;
+  color: $black-text-color;
+
+  padding-top: 60px;
+  padding-bottom: 150px;
+
+  span {
+    padding-right: 30px;
+  }
 }
