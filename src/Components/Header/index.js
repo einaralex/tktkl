@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Menu, GridColumn } from "semantic-ui-react";
+import { Grid, Menu } from "semantic-ui-react";
 import Button from "../Button";
 import Logo from "../../../assets/logo.png";
 import styles from "./Header.scss";
@@ -26,7 +26,7 @@ export default class extends React.Component {
                 className={styles.headerWrapper}
                 verticalAlign="bottom"
             >
-                <Grid.Column computer={10} tablet={16} mobile={16}>
+                <Grid.Column computer={11} tablet={16} mobile={16}>
                     <Grid>
                         <Grid.Row className={styles.header}>
                             <Grid.Column width={8}>

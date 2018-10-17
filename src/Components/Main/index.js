@@ -53,7 +53,7 @@ export default class extends React.Component {
     render() {
         return (
             <Grid.Row centered className={styles.main}>
-                <Grid.Column computer={10} tablet={16} mobile={16}>
+                <Grid.Column computer={11} tablet={16} mobile={16}>
                     {this.props.children.map((child, i) => (
                         <Grid stackable key={i}>
                             {child}

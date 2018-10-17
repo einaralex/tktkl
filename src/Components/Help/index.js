@@ -1,5 +1,4 @@
 import React from "react";
-import { Grid, Menu } from "semantic-ui-react";
 import styles from "./Help.scss"
 import { Chat } from "../../../assets"
 

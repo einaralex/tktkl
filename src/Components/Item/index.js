@@ -9,7 +9,6 @@ export default class extends React.Component {
 
     render() {
         const { title, description, index } = this.props;
-        const { open } = this.state;
 
         const homeImage = (index) => {
             return require(`../../../assets/ic-heimilisvernd${index + 1}.svg`);
@@ -19,7 +18,6 @@ export default class extends React.Component {
             <Grid
                 className={styles.item}
                 columns="equal"
-                onClick={() => this.toggle()}
             >
                 <Grid.Row textAlign="left" centered className={styles.header}>
                     <Grid.Column width={14}>

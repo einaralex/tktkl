@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Menu } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import styles from "./Footer.scss";
 import {
     Chat,
@@ -18,7 +18,7 @@ export default () => {
                 <Grid>
                     <Grid.Row centered className={styles.top}>
                         <Grid.Column
-                            width={10}
+                            width={11}
                             textAlign="left"
                             verticalAlign="middle"
                         >
@@ -41,7 +41,7 @@ export default () => {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row centered className={styles.links}>
-                        <Grid.Column width={7}>
+                        <Grid.Column width={8}>
                             <a href="#">Persónuvernd</a>
                             <span className={styles.slashDivider}>/</span>
                             <a href="#">Skilmálar</a>
