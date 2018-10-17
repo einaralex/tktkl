@@ -50,9 +50,13 @@ module.exports = {
         })
       },
       {
-        test: /\.(png|svg|woff|woff2|ttf|eot)$/,
+        test: /\.(png|svg)$/,
         use: ["file-loader"],
       },
+      {
+        test: /\.(otf|eot|ttf|woff|woff2)$/,
+        loader: 'file-loader?name=assets/font/[name].[ext]'
+    },
     ],
   },
   devServer: {

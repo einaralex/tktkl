@@ -12,8 +12,10 @@ export default class extends React.Component {
       className={styles.boxed}
       {...props}
     />
-
   );
+  static Framed = (props) => (
+    <Button content={props.value} className={styles.framed} {...props}/> 
+  )
 
   render() {
     return <Button {...this.props} />;
