@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Statistic } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import { Button } from "../../Components";
 import styles from "./Item.scss";
 
@@ -20,31 +20,34 @@ export default class extends React.Component {
                 className={styles.item}
                 columns="equal"
                 onClick={() => this.toggle()}
-                
             >
-                <Grid.Row textAlign='left' centered className={styles.header}>
+                <Grid.Row textAlign="left" centered className={styles.header}>
                     <Grid.Column width={14}>
                         <h3>{title.toUpperCase()}</h3>
                         <div className={styles.divider} />
                     </Grid.Column>
                 </Grid.Row>
-                <Grid.Row  textAlign='left' centered className={styles.description}>
+                <Grid.Row
+                    textAlign="left"
+                    centered
+                    className={styles.description}
+                >
                     <Grid.Column width={14}>
                         <p>{description}</p>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row centered className={styles.imageWrapper}>
                     <Grid.Column
-                        
                         className={styles.image}
                         style={{
                             backgroundImage: `url(${homeImage(index)})`,
                         }}
-                        textAlign={'center'}
+                        textAlign={"center"}
                         width={14}
-                    >
-                    </Grid.Column>
-                    <div className={styles.framedButton}><Button.Framed content={'SKOÐA NÁNAR'}/></div>
+                    />
+                    <div className={styles.framedButton}>
+                        <Button.Framed content={"SKOÐA NÁNAR"} />
+                    </div>
                 </Grid.Row>
             </Grid>
         );

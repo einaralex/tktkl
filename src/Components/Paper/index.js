@@ -1,4 +1,4 @@
 import React from "react";
 import { Segment } from "semantic-ui-react";
 
-export default (props) => <Segment className="paper">{props.children}</Segment>;
+export default (props) => <Segment>{props.children}</Segment>;
